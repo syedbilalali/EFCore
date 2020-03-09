@@ -22,6 +22,7 @@ namespace EFGetStarted
 
                 // Update
                 Console.WriteLine("Updating the blog and adding a post" + blog);
+				Console.WriteLine(blog.Url);
                 blog.Url = "https://devblogs.microsoft.com/dotnet";
                 blog.Posts.Add(
                     new Post
